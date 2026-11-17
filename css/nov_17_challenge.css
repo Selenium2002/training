@@ -1,0 +1,74 @@
+.container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    border: 2px solid black;
+    padding: 10px 20px;
+    height: 30vh;
+}
+
+/* Desktops   max-width: 1440px */
+@media (max-width: 1491px) {
+    .container {
+        background-image: linear-gradient(rgb(18, 127, 252), rgb(22, 240, 222), rgb(34, 187, 136), rgb(2, 30, 61));
+        color: rgb(34, 20, 46);
+        background-repeat: no-repeat;
+    }
+}
+
+/* Tablets    max-width: 1024px*/
+@media (max-width: 1025px) {
+    .container {
+        background-image: linear-gradient(rgb(216, 231, 1), rgb(160, 241, 9), rgb(40, 114, 22), rgb(11, 184, 132));
+        color: rgb(134, 32, 83);
+        background-repeat: no-repeat;
+    }
+}
+
+/* Phones     max-width: 600px*/
+@media (max-width: 601px) {
+    .container {
+      background-image: linear-gradient(rgb(171, 6, 248), rgb(160, 241, 9), rgb(118, 12, 139), rgb(218, 6, 165));
+        color: rgb(184, 20, 148);
+        background-repeat: no-repeat;
+    }
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    button{
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    button:hover{
+        background-color: #ccc;
+        letter-spacing: 2px;
+    }
+    button:active{
+        background-color: #5f5757;
+        letter-spacing: 2px;
+    }
+}
+
+#counter{
+    font-size: 25px;
+}
