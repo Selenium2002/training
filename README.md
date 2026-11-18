@@ -17,3 +17,8 @@ Type of work, the content, a small discription
 
 ## Nov17, 2026
 ### Prepared UI of a counter program
+
+
+
+## Nov18, 2026
+### Added an interactive maintainence to the counter program
