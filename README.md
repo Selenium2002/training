@@ -22,3 +22,8 @@ Type of work, the content, a small discription
 
 ## Nov18, 2026
 ### Added an interactive maintainence to the counter program
+
+
+
+## Nov19, 2026
+### Calling a constructor as calling a regular function and the opposite
